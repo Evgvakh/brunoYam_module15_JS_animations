@@ -8,7 +8,7 @@ const timer = setInterval(function() {
     let mnts = date.getMinutes();
     let scnds = date.getSeconds();
     
-    hours.style.transform = `rotate(${(hrs * 30) + (mnts/12+6)}deg)`;
+    hours.style.transform = `rotate(${(hrs * 30) + (mnts/12+12)}deg)`;
     minutes.style.transform = `rotate(${(mnts * 6) + (scnds/12)}deg)`;
     seconds.style.transform = `rotate(${scnds * 6}deg)`;
 }, 1000);
