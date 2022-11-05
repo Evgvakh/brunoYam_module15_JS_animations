@@ -1,0 +1,18 @@
+.main {
+    width: 400px;
+    height: 250px;
+    margin: 200px;
+    background-color: rgba(128, 128, 128, 0.363);
+}
+
+.ball-area {
+    height: 80%;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+img {
+    width: 30px;
+    position: absolute;
+    top: 172px; 
+}
